@@ -1,8 +1,6 @@
 module github.com/Layr-Labs/eigenda
 
-go 1.21
-
-toolchain go1.21.1
+go 1.23.0
 
 require (
 	github.com/Layr-Labs/eigensdk-go v0.1.7-0.20240507215523-7e4891d5099a
@@ -146,10 +144,9 @@ require (
 	go.uber.org/zap v1.27.0 // indirect
 	golang.org/x/arch v0.4.0 // indirect
 	golang.org/x/mod v0.17.0 // indirect
-	golang.org/x/oauth2 v0.16.0 // indirect
+	golang.org/x/oauth2 v0.27.0 // indirect
 	golang.org/x/sync v0.7.0 // indirect
 	golang.org/x/time v0.5.0 // indirect
-	google.golang.org/appengine v1.6.7 // indirect
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20231016165738-49dd2c1f3d0b // indirect
 	gopkg.in/natefinch/lumberjack.v2 v2.0.0 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
